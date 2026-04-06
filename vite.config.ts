@@ -21,12 +21,13 @@ export default defineConfig({
         tailwindcss(),
         wayfinder({
             formVariants: true,
+            path: 'resources/js/wayfinder',
         }),
-       
     ],
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './resources/js'),
+            '@wayfinder': path.resolve(__dirname, './resources/js/wayfinder'),
         },
     },
 });

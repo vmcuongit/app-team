@@ -99,10 +99,7 @@ export default [
         },
         rules: {
             '@stylistic/brace-style': ['error', '1tbs', { allowSingleLine: false }],
-            '@stylistic/padding-line-between-statements': [
-                'error',
-                ...paddingAroundControl,
-            ],
+            '@stylistic/padding-line-between-statements': 'off',
         },
     },
     {
